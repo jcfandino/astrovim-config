@@ -6,7 +6,19 @@ return {
     number = true, -- sets vim.opt.number
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
-    wrap = false, -- sets vim.opt.wrap
+    wrap = true, -- sets vim.opt.wrap
+    -- show whitespaces
+    listchars = {
+      eol = '$',
+      space = '_',
+      tab = '»-',
+      trail = '·',
+      extends = '>',
+      precedes = '<',
+      nbsp = '.'
+    },
+    list = true,
+
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
