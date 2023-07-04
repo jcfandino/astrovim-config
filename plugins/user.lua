@@ -13,4 +13,11 @@ return {
         'simeji/winresizer',
         lazy = false
     },
+    -- zenburn doesn't look good
+    -- {
+    --     "phha/zenburn.nvim",
+    --     config = function()
+    --         require("zenburn").setup()
+    --     end,
+    -- }
 }
