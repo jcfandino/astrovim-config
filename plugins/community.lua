@@ -6,5 +6,6 @@ return {
 
   -- { import = "astrocommunity.colorscheme.catppuccin" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
+  -- Colorscheme
   { import = "astrocommunity.colorscheme.everforest" },
 }
