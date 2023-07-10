@@ -27,8 +27,8 @@ return {
     ["<C-s>"] = false, -- force write by default
     -- Neorg
     ["<leader>N"] = { desc = get_icon("DefaultFile", 1, true) .. "Norg" },
-    ["<leader>Ni"] = { "<cmd>Neorg index", desc = "Neorg index<CR>" },
-    ["<leader>Nq"] = { "<cmd>Neorg return", desc = "Neorg return<CR>" },
+    ["<leader>Ni"] = { "<cmd>Neorg index<CR>", desc = "Neorg index" },
+    ["<leader>Nq"] = { "<cmd>Neorg return<CR>", desc = "Neorg return" },
   },
   t = {
     -- setting a mapping to false will disable it
